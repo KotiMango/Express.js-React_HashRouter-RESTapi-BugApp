@@ -1,0 +1,17 @@
+{
+  "name": "proj-node-server",
+  "version": "1.0.0",
+  "scripts": {
+    "listFiles": "dir",
+    "checkLife": "ping google.com",
+    "start": "nodemon --ignore \"./data\" server.js"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2"
+  }
+}
